@@ -1,7 +1,7 @@
 public class COMSC_1033_Addition_Game_Class {
 	public static void main(String[] args) {
 		System.out.println("Hello Class!");
-		// This is my development 1412 branch.
+		// This is my master 1412 branch.
 		
 		// Outline for addition problem.
 		
@@ -55,12 +55,13 @@ public class COMSC_1033_Addition_Game_Class {
 		//		IF correct
 		//			Tell them it was correct
 		//			Give them points
-		//			Make the next question harder
 		//		IF not correct
 		//			Tell them it was wrong
 		// 			Tell them the correct answer
 		//			Do not give them points
-		//			Make the next question easier
+		//	Calculate total points.
+		// 	Display final score
+
 
 
 	}
