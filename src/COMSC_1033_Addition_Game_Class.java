@@ -1,18 +1,16 @@
 import java.util.Scanner;
 public class COMSC_1033_Addition_Game_Class {
 	public static void main(String[] args) {
-		
-		 //System.out.println("Hello class.");
 
         //Call the addition game method.
         AdditonGameMethod();
     }
     public static void AdditonGameMethod() {
-        //System.out.println("Inside the addition game method.");
+      
 
         int[] gameVariables = new int[4];
         gameVariables[0] =10; //hardness;
-        gameVariables[1] = 2; //hardnessStep
+        gameVariables[1] = 2; //hardnessStep;
         gameVariables[2] = 0; //score;
         gameVariables[3] = 0; // 1 for true, 0 for false
 
