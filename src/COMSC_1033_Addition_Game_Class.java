@@ -11,16 +11,13 @@ public class COMSC_1033_Addition_Game_Class {
         //System.out.println("Inside the addition game method.");
 
         int[] gameVariables = new int[4];
-        gameVariables[0] = 5; //hardness;
-        //int hardness = gameVariables[0];
-        gameVariables[1] = 2; //hardnessStep;
-        //int hardnessStep = 2;
+        gameVariables[0] =10; //hardness;
+        gameVariables[1] = 2; //hardnessStep
         gameVariables[2] = 0; //score;
-        //int score = 0;
         gameVariables[3] = 0; // 1 for true, 0 for false
 
         // Set up my for loop to go through the number of rounds
-        int numberOfRounds = 3;
+        int numberOfRounds = 4;
         for(int roundNumber = 1; 
         roundNumber <= numberOfRounds;  
         roundNumber = roundNumber + 1){
@@ -55,12 +52,9 @@ public class COMSC_1033_Addition_Game_Class {
     }
 
     public static int[] getAndCheckStudentAnswer(int[] gameVariables) {
-        //System.out.println("Inside get and check student answer method.");
         int number1 = (int)(Math.random()*gameVariables[0]);
         int number2 = (int)(Math.random()*gameVariables[0]);
         System.out.print("Add " + number1 + " and " + number2 +": ");
-        //Scanner input = new Scanner(System.in);
-        //int studentAnswer = input.nextInt();
         Scanner get = new Scanner(System.in);
         int studentAnswer = get.nextInt();
         if(studentAnswer == (number1 + number2)){
